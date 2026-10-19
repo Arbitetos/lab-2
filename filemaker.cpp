@@ -4,11 +4,11 @@
 using namespace std;
 
 int raom(){
-    srand(time(0));
-    return (rand() %10 + 1);
+    return rand() %10 + 1;
 }
 
 int main(){
+    srand(time(0));
     ofstream out;
     ofstream out2;
     ofstream out3;
